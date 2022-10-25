@@ -17,6 +17,9 @@ public class TestaMetodo {
 		
 		contaDaMarcela.transfere(300, contaDoPaulo);
 		System.out.println(contaDoPaulo.saldo);
+		
+		contaDoPaulo.titular = "Paulo Silveira";
+		System.out.println(contaDoPaulo.titular);
 	}
 
 }
